@@ -6,15 +6,15 @@
 .benefits-list {
     display: flex;
     align-content: space-between;
-    &:not(:last-child) {
-        margin-right: 30px;
-    }
 }
 
 
 
 .benefits-item {
     width: 270px;
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
 }
 
 .benefits-img {

@@ -225,12 +225,12 @@ ul, ol {
   display: flex;
   align-content: space-between;
 }
-.benefits-list:not(:last-child) {
-  margin-right: 30px;
-}
 
 .benefits-item {
   width: 270px;
+}
+.benefits-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .benefits-img {
